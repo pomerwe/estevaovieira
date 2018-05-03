@@ -1,0 +1,60 @@
+body{
+background-color:#FFFFFF;
+
+}
+#cabecalho{
+position:relative;
+border: 0.2px;
+border-style:solid;
+font-size:60px;
+box-shadow: 1px 0.5px 10px rgba(0, 0, 0, 0.6);
+padding: 0px;
+background-color:#111111;
+
+
+}
+#sidebar{
+background-color:#BBBBBB;
+font-size:19px;
+border-style:solid;
+border-width:0.02px;
+width:150px;
+float:left;
+height:500px;
+word-break: break-all; 
+word-wrap: break-word;
+}
+#menu{
+position:relative;
+
+height:100%;
+
+}
+
+
+#conteudo{
+margin-left:150px;
+border-style:solid;
+border-width:0.02px;
+word-break: break-all; 
+word-wrap: break-word;
+height:100%;
+background-color:red;
+}
+#total{
+height:500px;
+}
+
+
+a.t{
+text-decoration:none;
+color:black;
+}
+a.t:hover{
+transition-duration:0.3s;
+color:red;
+}
+img.cont{
+width:250px;
+
+}
